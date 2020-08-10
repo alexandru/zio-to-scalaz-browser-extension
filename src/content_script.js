@@ -39,20 +39,8 @@ function handleText(textNode)
 {
 	var v = textNode.nodeValue;
 
-	v = v.replace(/\bAWS Lambda\b/g, "AWS Common Gateway Interface");
-	v = v.replace(/\bAWS lambda\b/g, "AWS Common Gateway Interface");
-	v = v.replace(/\baws Lambda\b/g, "AWS Common Gateway Interface");
-	v = v.replace(/\baws lambda\b/g, "AWS Common Gateway Interface");
-
-	v = v.replace(/\bServerless\b/g, "cgi-bin");
-	v = v.replace(/\bserverless\b/g, "cgi-bin");
-
-	v = v.replace(/\bcgi-bin architecture\b/g, "Common Gateway Interface architecture");
-	v = v.replace(/\bcgi-bin architectures\b/g, "Common Gateway Interface architecture");
-	v = v.replace(/\bcgi-bin Architecture\b/g, "Common Gateway Interface architecture");
-	v = v.replace(/\bcgi-bin Architectures\b/g, "Common Gateway Interface architecture");
+	v = v.replace(/\bZIO\b/g, "ScalaZ");
+	v = v.replace(/\bzio\b/g, "scalaz");
 	
 	textNode.nodeValue = v;
 }
-
-
