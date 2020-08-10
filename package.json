@@ -1,10 +1,10 @@
 {
 	"name": "startpage-search-themed",
 	"version": "1.1.0",
-	"description": "Web extension that replaces 'ZIO' text occurrences with 'Scalaz' to make it easier to identity.",
+	"description": "Web extension that replaces 'ZIO' text occurrences with 'ScalaZ' to make it easier to identity.",
 	"author": "alexelcu",
 	"scripts": {
-		"bundle-firefox": "web-ext -s src -a dist build --overwrite-dest"
+		"bundle-firefox": "web-ext -s src -a dist/firefox build --overwrite-dest"
 	},
 	"repository": {
 		"type": "git",
