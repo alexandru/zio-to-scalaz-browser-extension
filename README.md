@@ -2,8 +2,8 @@
 
 A browser extension that replaces text occurrences of 'zio' with 'scalaz', to make it easier to identify.
 
+- [Firefox](https://addons.mozilla.org/en-US/firefox/addon/zio-to-scalaz/)
 - [Chrome WebStore](https://chrome.google.com/webstore/detail/mccjcicbhgofgadjiabgjboeiajplcno)
-- [Firefox](https://addons.mozilla.org/ro/firefox/addon/zio-to-scalaz/)
 
 **NOTE (2020-08-10 22:57:14):** uploaded extensions are in review, have patience ❤️
 
