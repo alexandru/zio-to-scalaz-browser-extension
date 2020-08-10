@@ -7,9 +7,7 @@ A browser extension that replaces text occurrences of 'zio' with 'scalaz', to ma
 
 NOTE (2020-08-10 22:57:14): uploaded extensions are in review, have patience ❤️
 
-![Screenshot of Google search](./screenshot.png)
-
-## Building the extension for distribution
+## Building & Testing Locally
 
 ```
 npm install
@@ -17,9 +15,12 @@ npm install
 npm run bundle
 ```
 
-## Testing it Locally
-
-See guides:
+To install locally, see guides:
 
 - [Test on Firefox](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension#Trying_it_out)
 - [Test on Chrome](https://support.google.com/chrome/a/answer/2714278?hl=en#)
+
+## Screenshots
+
+![Screenshot of Google search](./images/screenshot.png)
+![Screenshot of GitHub Org](./images/screenshot2.png)
