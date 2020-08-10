@@ -16,3 +16,10 @@ npm install
 
 npm run bundle
 ```
+
+## Testing it Locally
+
+See guides:
+
+- [Test on Firefox](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension#Trying_it_out)
+- [Test on Chrome](https://support.google.com/chrome/a/answer/2714278?hl=en#)
