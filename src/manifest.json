@@ -1,11 +1,8 @@
 {
 	"manifest_version": 2,
 	"name": "ZIO to ScalaZ",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Replaces the text 'ZIO' with 'ScalaZ', to make it easier to identify.",
-	"permissions": [
-    "activeTab"
-  ],
 	"content_scripts": 
 	[
 		{
