@@ -22,5 +22,5 @@ To install locally, see guides:
 
 ## Screenshots
 
-![Screenshot of Google search](./images/screenshot.png)
+![Screenshot of Google search](./images/screenshot1.png)
 ![Screenshot of GitHub Org](./images/screenshot2.png)
