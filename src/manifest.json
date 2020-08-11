@@ -1,9 +1,9 @@
 {
 	"manifest_version": 2,
 	"name": "ZIO to ScalaZ",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "Replaces the text 'ZIO' with 'ScalaZ', to make it easier to identify.",
-	"content_scripts": 
+	"content_scripts":
 	[
 		{
 			"matches": ["*://*/*"],

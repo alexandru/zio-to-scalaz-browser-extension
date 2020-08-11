@@ -1,9 +1,11 @@
-# ZIO to ScalaZ browser extension 
+# ZIO to ScalaZ browser extension
 
 A browser extension that replaces text occurrences of 'zio' with 'scalaz', to make it easier to identify, and reduce confusion.
 
 - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/zio-to-scalaz/)
 - [Chrome WebStore](https://chrome.google.com/webstore/detail/mccjcicbhgofgadjiabgjboeiajplcno) (not yet approved, at 2020-08-10 12:13+02)
+
+Update: Now, to remove more confusion, 'cats' is replaced with 'scalaz (but without Tony Morris)', and 'monix' is replaced with 'RxScala'.
 
 ## Building & Testing Locally
 

@@ -1,12 +1,12 @@
 walk(document.body);
 
-function walk(node) 
+function walk(node)
 {
 	// I stole this function from here:
 	// http://is.gd/mwZp7E
-	
+
 	var child, next;
-	
+
 	var tagName = node.tagName ? node.tagName.toLowerCase() : "";
 	if (tagName == 'input' || tagName == 'textarea') {
 		return;
@@ -15,13 +15,13 @@ function walk(node)
 		return;
 	}
 
-	switch ( node.nodeType )  
+	switch ( node.nodeType )
 	{
 		case 1:  // Element
 		case 9:  // Document
 		case 11: // Document fragment
 			child = node.firstChild;
-			while ( child ) 
+			while ( child )
 			{
 				next = child.nextSibling;
 				walk(child);
@@ -35,12 +35,16 @@ function walk(node)
 	}
 }
 
-function handleText(textNode) 
+function handleText(textNode)
 {
 	var v = textNode.nodeValue;
 
 	v = v.replace(/\bZIO\b/g, "ScalaZ");
 	v = v.replace(/\bzio\b/g, "scalaz");
-	
+	v = v.replace(/\bCats\b/g, "ScalaZ (but without Tony Morris)");
+	v = v.replace(/\bcats\b/g, "scalaz (but without Tony Morris)");
+	v = v.replace(/\bMonix\b/g, "RxScala");
+	v = v.replace(/\bmonix\b/g, "RxScala");
+
 	textNode.nodeValue = v;
 }
