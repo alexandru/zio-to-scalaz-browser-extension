@@ -1,6 +1,6 @@
 # ZIO to ScalaZ browser extension 
 
-A browser extension that replaces text occurrences of 'zio' with 'scalaz', to make it easier to identify.
+A browser extension that replaces text occurrences of 'zio' with 'scalaz', to make it easier to identify, and reduce confusion.
 
 - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/zio-to-scalaz/)
 - [Chrome WebStore](https://chrome.google.com/webstore/detail/mccjcicbhgofgadjiabgjboeiajplcno)
